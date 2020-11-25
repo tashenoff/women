@@ -1,3 +1,21 @@
+.sub-header{
+    background-color: $black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    p{
+        color: #fff;
+        margin: 0;
+        font-size: 18px;
+        
+  
+
+    }
+
+}
+
 .header {
     position: relative;
 
