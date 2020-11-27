@@ -1,4 +1,4 @@
-.btn{
+.btn {
     border: none;
     color: white;
     padding: 8px 32px;
@@ -8,19 +8,15 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-
-    &__primary{
+    &__primary {
         background-color: $black;
-
-        &--bage{
+        &--bage {
             position: absolute;
             bottom: 0;
             left: 0;
         }
     }
-
-
-    &__social{
+    &__social {
         @extend .btn__primary;
         padding: 0px 9px;
     }
